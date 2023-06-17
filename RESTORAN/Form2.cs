@@ -28,8 +28,8 @@ namespace RESTORAN
             MySqlConnectionStringBuilder build = new MySqlConnectionStringBuilder();
             build.Server = "localhost";
             build.UserID = "root";
-            build.Database = "lokanta";
-            build.Password = "3044Cisco";
+            build.Database = "youdatabase";
+            build.Password = "yourpassword";
             baglanti = new MySqlConnection(build.ToString());
 
             baglanti.Open();
